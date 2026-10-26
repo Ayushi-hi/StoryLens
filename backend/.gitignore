@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Secrets and data
+.env
+backend/.env
+backend/data/
+*.parquet
+*.csv
+*.db
+*.db-wal
+*.db-shm
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
